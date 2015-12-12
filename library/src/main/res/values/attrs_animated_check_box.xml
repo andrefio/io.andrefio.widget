@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnimatedCheckBox">
+        <attr name="acb_animate" format="boolean"/>
+        <attr name="acb_fillColor" format="color"/>
+        <attr name="acb_iconHeight" format="dimension"/>
+        <attr name="acb_iconResource" format="reference"/>
+        <attr name="acb_iconTint" format="color"/>
+        <attr name="acb_iconWidth" format="dimension"/>
+        <attr name="acb_imageResource" format="reference"/>
+        <attr name="acb_shape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="square" value="1"/>
+        </attr>
+        <attr name="acb_strokeColor" format="color"/>
+        <attr name="acb_strokeSize" format="dimension"/>
+        <attr name="acb_text" format="string"/>
+        <attr name="acb_textColor" format="color"/>
+        <attr name="acb_textSize" format="dimension"/>
+    </declare-styleable>
+</resources>
