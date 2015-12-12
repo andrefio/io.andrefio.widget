@@ -3,8 +3,8 @@
 Known Issues
 ------------
 
- [ ] `match_parent` and `wrap_content` do not work on the flipped side.
- [ ] 
+  [ ] `match_parent` and `wrap_content` do not work on the flipped side.
+  [ ] 
  
 
 License
