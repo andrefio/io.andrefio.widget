@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:layout_height="72dp"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp">
+
+    <io.andref.widget.AnimatedCheckBox
+        android:id="@+id/animated_check_box"
+        android:layout_centerVertical="true"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        app:acb_iconHeight="24dp"
+        app:acb_iconWidth="24dp"/>
+
+    <FrameLayout
+        android:background="@color/light_gray"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="56dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/text_view_1"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                style="@style/TextAppearance.AppCompat.Subhead"/>
+
+            <TextView
+                android:id="@+id/text_view_2"
+                android:fontFamily="sans-serif-light"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/dark_gray"
+                style="@style/TextAppearance.AppCompat.Body1"/>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
